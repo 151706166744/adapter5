@@ -1,0 +1,5 @@
+include ':ActivityCollector'
+include ':BroadcastTest2'
+include ':AnotherBrocastReceiver'
+include ':app'
+rootProject.name = "BroadcastTest"
