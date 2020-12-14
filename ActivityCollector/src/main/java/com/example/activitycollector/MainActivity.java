@@ -18,7 +18,6 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ActivityCollector.addActivity(this);
         Button forceOffline = (Button) findViewById(R.id.force_offline);
         forceOffline.setOnClickListener(new View.OnClickListener() {
             @Override
